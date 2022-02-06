@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" tybe="text/css" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora con HTML, CSS Y JAVASCRIPT</h1>
+    <form name="calculadora" class="grid-container">
+        <input type="text" class="grid-item resultado" name="ans" value=""  readonly>
+        <input type="button" class="grid-item" value="C" onclick="reset()">
+        <input type="button" class="grid-item" value="D" onclick="eliminar()">
+        <input type="button" class="grid-item" value="÷" onclick="division()">
+        <input type="button" class="grid-item" value="x" onclick="multiplicacion()">
+        <input type="button" class="grid-item" value="7" onclick="siete()">
+        <input type="button" class="grid-item" value="8" onclick="ocho()">
+        <input type="button" class="grid-item" value="9" onclick="nueve()">
+        <input type="button" class="grid-item" value="-" onclick="resta()">
+        <input type="button" class="grid-item" value="4" onclick="cuatro()">
+        <input type="button" class="grid-item" value="5" onclick="cinco()">
+        <input type="button" class="grid-item" value="6" onclick="seis()">
+        <input type="button" class="grid-item" value="+" onclick="suma()">
+        <input type="button" class="grid-item" value="1" onclick="uno()">
+        <input type="button" class="grid-item" value="2" onclick="dos()">
+        <input type="button" class="grid-item" value="3" onclick="tres()">
+        <input type="button" class="grid-item" value="=" onclick="igual()">
+        <input type="button" class="grid-item" value="0" onclick="cero()">
+        <input type="button" class="grid-item" value="." onclick="punto()">
+    </form>
+    <script src="calculadora.js"></script>
+</body>
+</html>
